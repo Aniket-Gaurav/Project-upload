@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.leftside,
+.rightside {
+  height: 50vh;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .leftside,
+  .rightside {
+    height: 100vh;
+  }
+}
+
+.pc{
+  position: absolute;
+  right: 0;
+}
+
+.min{
+    margin-left:  166px;
+    padding-top: 115px;
+    color: white;
+    font-size:large;
+
+}
+
+h1{
+    font-style: bold;
+    font-size: 48px;
+}
+
+.leftside {
+  background: rgba(1, 108, 196, 0.651);
+}
+
+.rightside {
+  background: white;
+}
+
+.sid{
+    padding-top: 145px;
+}
+
+a {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+img {
+  width: 35px;
+  height: 35px;
+}
+ul {
+  list-style: none;
+}
+li {
+  position: relative;
+  /* border-bottom: 1px solid #e7e7e7; */
+  padding: 4px 0 4px 60px;
+}
+.edit {
+  left: 0px;
+}
+.delete {
+  left: 25px;
+}
