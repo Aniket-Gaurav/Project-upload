@@ -6,15 +6,21 @@ body {
 
 .leftside,
 .rightside {
-  height: 50vh;
+  height: 100%;
   width: 100%;
 }
 
 @media screen and (min-width: 768px) {
   .leftside,
   .rightside {
-    height: 100vh;
+    height: 100%;
   }
+}
+
+.min{
+  position: relative;
+  /* border-bottom: 1px solid #e7e7e7; */
+  padding: 4px 0 4px 60px;
 }
 
 .pc{
@@ -27,7 +33,7 @@ body {
     padding-top: 115px;
     color: white;
     font-size:large;
-
+    margin-bottom: 20.75%;
 }
 
 h1{
@@ -36,11 +42,11 @@ h1{
 }
 
 .leftside {
-  background: rgba(1, 108, 196, 0.651);
+  background: rgb(11, 163, 219);
 }
 
 .rightside {
-  background: white;
+  background: red;
 }
 
 .sid{
